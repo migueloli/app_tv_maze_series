@@ -1,0 +1,26 @@
+package com.miguel.core.data.entities
+
+data class ShowEntity (
+    val id: Long,
+    val url: String,
+    val name: String,
+    val type: String,
+    val language: String,
+    val genres: List<String>,
+    val status: String,
+    val runtime: Long,
+    val averageRuntime: Long,
+    val premiered: String,
+    val officialSite: String,
+    val schedule: ScheduleEntity,
+    val rating: RatingEntity,
+    val weight: Long,
+    val network: NetworkEntity,
+    val webChannel: Any? = null,
+    val dvdCountry: Any? = null,
+    val externals: ExternalsEntity,
+    val image: ImageEntity,
+    val summary: String,
+    val updated: Long,
+    val _links: LinksEntity,
+)
